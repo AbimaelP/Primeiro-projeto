@@ -1,0 +1,27 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Quicksand';
+    src: url(_fonts/static/Quicksand-Medium.ttf);
+}
+
+body {
+    background-color: rgba(22, 22, 22, 0.74);
+}
+main#interface {
+    text-align: center;
+    background: rgb(59, 59, 59);
+    width: 95%;
+    max-width: 1000px;
+    margin:100px auto;
+    border-radius: 7px;
+    box-shadow: 1px 1px 10px rgb(0, 0, 0);
+}
+main #aula {
+    font-family: 'Quicksand';
+    color: #ffff;
+    padding-top: 50px;
+    margin-bottom: 10px;
+    font-size: 1.6em;
+    position: relative;
+    
+}
