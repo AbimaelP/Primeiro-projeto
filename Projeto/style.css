@@ -25,10 +25,13 @@ main #aula {
     margin-bottom: 10px;
     font-size: 1.6em;
     position: relative;
-    
+    transition: 0.7s;
+}
+main#interface:hover #aula {
+    color: black;
 }
 main#interface:hover {
-    background-color: rgba(5, 5, 5, 0.637);
+    background-color: #ffecef;
 }
 span#botao {
     color: rgb(155, 151, 151);
@@ -43,9 +46,40 @@ span#botao {
     border-radius: 5px;
     cursor: pointer;
 }
-span#botao:hover {
-    background: linear-gradient(90deg,rgb(17, 17, 17)-10% ,rgb(32, 134, 134)67% ,rgb(26, 175, 245)140%);
-    color: black;
-    width: 200px;
+#proxaul:hover #botao {
+    background: linear-gradient(90deg,rgb(17, 17, 17)-10% ,rgb(19, 78, 78)67% ,rgb(19, 95, 131)140%);
+    color: rgb(214, 212, 212);
+    width: 260px;
     right: -140px;
+}
+div #img_proxaul {
+    position: absolute ;
+    right: -196px;
+    bottom: 40px;
+    width: 300px;
+    opacity: 0;
+    padding: 20px;
+    cursor: pointer;
+}
+div#proxaul {
+    width: 300px;
+}
+#proxaul:hover #img_proxaul {
+    opacity: 1;
+}
+span#botao_prog {
+    color: rgb(155, 151, 151);
+    font-family: 'Quicksand';
+    font-weight: bold;
+    position: absolute;
+    text-align: right;
+    padding: 8px 5px;
+    right: -102px;
+    bottom: 185px;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0;
+}
+#proxaul:hover #botao_prog {
+    opacity: 1;
 }
